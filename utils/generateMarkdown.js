@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   switch (license) {
     case "BSD 3-Clause":
       return "[![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]";
-    case "GPLv3":
+    case "GPL v3":
       return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
     case "ISC":
       return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
   switch (license) {
     case "BSD 3-Clause":
       return "(https://opensource.org/licenses/BSD-3-Clause)";
-    case "GPLv3":
+    case "GPL v3":
       return "(https://www.gnu.org/licenses/gpl-3.0)";
     case "ISC":
       return "(https://opensource.org/licenses/ISC)";
