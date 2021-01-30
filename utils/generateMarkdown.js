@@ -43,6 +43,7 @@ function renderLicenseSection(license) {
     return `## License  
 This application is covered under the **${license}** license. More info can be found here: [${license}]${renderLicenseLink(license)}`;
   }
+  return "";
 }
 
 // A function to generate markdown for README
