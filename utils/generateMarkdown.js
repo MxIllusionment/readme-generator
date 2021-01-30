@@ -40,8 +40,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "") {
-    return `## License  
-This application is covered under the **${license}** license. More info can be found here: [${license}]${renderLicenseLink(license)}`;
+    return `
+## License  
+This application is covered under the **${license}** license. More info can be found here: [${license}]${renderLicenseLink(license)}
+`;
   }
   return "";
 }
@@ -50,9 +52,39 @@ This application is covered under the **${license}** license. More info can be f
 function generateMarkdown(data) {
   return `# ${data.title}  
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+## Description
+${data.description}
 
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+${data.license !== "" ? '* [License](#License)\n' : ""}* [Questions](#Questions)
+
+## Installation
+To install, run the following command:  
+\`\`\`
+${data.installCmd}
+\`\`\`
+
+## Usage
+${data.usage}
+
+## Contributing
+${data.contributing}
+
+## Tests
+To test, run the following command:  
+\`\`\`
+${data.testCmd}
+\`\`\`
 ${renderLicenseSection(data.license)}
+
+## Questions
+Questions about the project? You can contact me at ${data.email} or check out my GitHub profile at ${"[" + data.username + "](https://github.com/" + data.username + ")"}
 `;
+
 }
 
 module.exports = generateMarkdown;
