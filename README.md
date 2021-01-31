@@ -8,8 +8,6 @@ Written as a practice in node.js and the Inquirer package.
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
 * [License](#License)
 * [Questions](#Questions)
 
