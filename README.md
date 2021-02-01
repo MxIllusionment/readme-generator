@@ -20,7 +20,7 @@ npm install
 ## Usage
 Requires node.js to run. Execute with 'node readme-gen.js'. When complete, the README file will be saved to the ./output directory.
 
-[Walkthrough Video](#)
+[Walkthrough Video](https://drive.google.com/file/d/1jQFSG_5gm_9Mk2T2rYvky7Spf81kIlVZ/view?usp=sharing)
 
 ## License  
 This application is covered under the **ISC** license. More info can be found here: [ISC](https://opensource.org/licenses/ISC)
