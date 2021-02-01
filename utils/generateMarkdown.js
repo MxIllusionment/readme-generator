@@ -80,7 +80,6 @@ To test, run the following command:
 ${data.testCmd}
 \`\`\`
 ${renderLicenseSection(data.license)}
-
 ## Questions
 Questions about the project? You can contact me at ${data.email} or check out my GitHub profile at ${"[" + data.username + "](https://github.com/" + data.username + ")"}
 `;
