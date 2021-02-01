@@ -27,3 +27,6 @@ This application is covered under the **ISC** license. More info can be found he
 
 ## Questions
 Questions about the project? You can contact me at malenchite@gmail.com or check out my GitHub profile at [malenchite](https://github.com/malenchite)
+
+## Credits
+Uses the [Inquirer](https://www.npmjs.com/package/inquirer) node.js package
